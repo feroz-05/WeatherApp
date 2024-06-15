@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#root {
+  height: 773px;
+  background-color: rgba(30, 49, 53, 0.836);
+  background-image: url(https://wallpaper.forfun.com/fetch/68/680fc945835799d445f0510c3b367fc3.jpeg?w=1200&r=0.5625);
+  background-position: center;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+
+.card{
+  background-color: rgba(221, 93, 73, 0.801);
+  width: 450px;
+  height: 660px;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: 1px 3px 10px black;
+  border-radius: 15PX;
+}
+
+.temp{
+  
+  font-weight: bold;
+  text-align: center;
+  width: 300px;
+  height: 230px;
+  margin: 0 auto;
+  
+  box-shadow: 1px 3px 10px black;
+  border-radius: 15PX;
+  background: #F6C8A4;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day{
+  font-size: 25px;
+}
+
+.celcius{
+  font-size: 70px;
+  padding: 0;
+}
+
+.weather{
+  font-size: 18px;
+}
+
+
+.timing1 , .timing2{
+  display: flex;
+  flex-direction: row;
+  background-color: #f6c8a465;
+  height: 100px;
+  margin: 0  40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.timing2{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.text{
+  margin: 20px 30px;
+  height: 150px;
+}
+
+
+.hours{
+  font-size: 15px;
+  font-weight: bold;
+  width: 70px;
+  height: 100px;
+  line-height: 45px;
+;
+}
+
+.input{
+  margin :5px;
+}
+
+input[type="text"]{
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  font-size: 16px;
+}
+
+
